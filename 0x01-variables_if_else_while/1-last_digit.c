@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * return: always 0
+ * Return: always 0 (success)
 */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	digit = n % 10;
 	if (digit > 5)
-		printf("Last digit of %d is %d and is greter than 5\n", n, digit);
+		printf("Last digit of %d is %d and is greater than 5\n", n, digit);
 	else if (digit == 0)
 		printf("Last digit of %d is %d and is 0\n", n, digit);
 	else if (digit < 6 && digit != 0)
