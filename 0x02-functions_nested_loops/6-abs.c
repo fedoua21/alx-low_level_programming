@@ -2,7 +2,7 @@
 /**
  * _abs - compute the absolute value of integr
  * @i: input number as an integr
- * return: absolute value
+ * Return: absolute value
 */
 int _abs(int i)
 {
