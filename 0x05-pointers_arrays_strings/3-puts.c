@@ -3,7 +3,7 @@
  * _puts - print a string followed by a new line
  * @str: string parametre to print
  * Return: nothing
-*/ 
+*/
 void _puts(char *str)
 {
 	while (*str != '\0')
